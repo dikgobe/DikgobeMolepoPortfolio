@@ -1,0 +1,108 @@
+/* Styles for the container */
+.about-me-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0px;
+  background-color: #00263c;
+  height: 980px;
+}
+
+/* Styles for headings */
+h1,
+h2 {
+  color: #333;
+}
+
+/* Styles for biography section */
+.bio {
+  margin-bottom: 20px;
+}
+
+/* Styles for skills, experience, and education sections */
+.skills,
+.experience,
+.education {
+  margin-bottom: 30px;
+}
+
+.skills ul,
+.experience ul,
+.education ul {
+  list-style-type: none;
+  padding: 0;
+  color: white;
+}
+
+.skills li,
+.experience li,
+.education li {
+  margin-bottom: 10px;
+}
+
+/* Styles for social links */
+.social-links {
+  margin-bottom: 30px;
+}
+
+.social-links ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.social-links li {
+  margin-bottom: 10px;
+}
+
+.social-links a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.social-links a:hover {
+  text-decoration: underline;
+}
+.about-paragraph {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 20px;
+}
+.pic-skills-container {
+  display: flex;
+  flex-direction: row;
+}
+.about-picture {
+  width: 300px;
+  height: 300px;
+  margin-top: 60px;
+  margin-left: 200px;
+  margin-bottom: 100px;
+  border: solid 2px palegreen;
+  border-radius: 150px;
+}
+.skills {
+  margin-left: 300px;
+}
+.experience {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  
+  margin-bottom: 30px;
+}
+.EmployHeader {
+  margin: auto;
+  margin-bottom: 10px;
+}
+.education {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  
+  margin-bottom: 10px;
+}
+.social-links{
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  
+  margin-bottom: 10px;
+}

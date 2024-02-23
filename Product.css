@@ -1,0 +1,120 @@
+.contact-heading {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.contact-form {
+  align-content: center;
+  margin-top: 200px;
+  margin-left: 200px;
+}
+.fullname-group {
+  display: flex;
+  justify-content: space-between;
+}
+/* Product.css */
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.contact-form .fullName-group,
+.contact-form .Email-group,
+.contact-form .Message-group {
+  margin-bottom: 30px; /* Adjust as needed to create vertical space */
+}
+
+.contact-form label {
+  margin-bottom: 5px; /* Add margin below the label */
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 8px; /* Adjust padding as needed */
+  border-radius: 15px;
+  border-color: aqua;
+}
+
+/* Product.css */
+
+.contact-form label {
+  display: inline-block; /* Ensure labels behave as block-level elements */
+  width: 150px; /* Set a fixed width for the labels */
+  margin-right: 20px; /* Add margin to the right of the labels */
+}
+
+.contact-form input,
+.contact-form textarea {
+  display: inline-block; /* Ensure inputs behave as block-level elements */
+  width: calc(
+    100% - 180px
+  ); /* Calculate the width of the input fields (100% - label width - margin-right) */
+  padding: 8px; /* Adjust padding as needed */
+}
+
+/* Product.css */
+
+.contact-form label {
+  display: inline-block;
+  width: 150px;
+  margin-right: 20px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"] {
+  display: inline-block;
+  width: calc(100% - 180px);
+  padding: 8px;
+  border: 3px solid black;
+}
+
+.contact-form input[type="message"] {
+  display: inline-block;
+  width: calc(100% - 180px);
+  padding: 8px;
+  height: 100px; /* Adjust height to make it bigger */
+  border: 3px solid black;
+}
+
+.submit-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 443px;
+}
+
+.submit-button:hover {
+  background-color: #c01120;
+}
+.icons-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-top: 200px;
+  color: white;
+}
+.contact-container {
+  background-color: #00263c;
+}
+.contact-heading {
+  background-color: #00263c;
+  margin-top: 100px;
+}
+.icons-list {
+  background-color: #00263c;
+  margin-top: 10px;
+}
+.contact-form {
+  margin-top: 150px;
+  margin-right: 100px;
+}
+.icons-list{
+  margin-top: 100px;
+}

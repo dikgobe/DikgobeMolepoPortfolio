@@ -1,0 +1,129 @@
+* {
+  font-family: "Gill Sans", sans-serif;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  
+}
+.skills {
+  background: #647281;
+  text-transform: uppercase;
+
+}
+h1 {
+  text-align: center;
+}
+h3 {
+  margin: 5px;
+}
+.skills {
+  width: 500px;
+  margin: 60px auto;
+  color: #110202;
+  padding: 20px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+.skills li {
+  margin: 20px 0;
+  padding: 20px;
+}
+.bar {
+  background: white;
+  display: block;
+  height: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.bar:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.bar span {
+  height: 20px;
+  float: left;
+  background: linear-gradient(
+    135deg,
+    #00263c 0%,
+    #00263c 100%
+  );
+}
+
+.html {
+  width: 90%;
+  animation: html 3s;
+}
+
+.Javascript {
+  width: 60%;
+  animation: Javascript 3s;
+}
+
+.Css {
+  width: 80%;
+  animation: Css 3s;
+}
+
+.c-plus-plus {
+  width: 70%;
+  animation: C-plus-plus 3s;
+}
+.Python {
+  width: 60%;
+  animation: Python 3s;
+}
+
+@keyframes html {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 90%;
+  }
+}
+@keyframes Javascript {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 60%;
+  }
+}
+
+@keyframes Css {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 80%;
+  }
+}
+
+@keyframes Python {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 60%;
+  }
+}
+
+@keyframes c-plus-plus {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 60%;
+  }
+}
+.contact-form-container{
+  background-color: #00263c;
+  height: 980px;
+  margin-top: 0px;
+}
+.skills {
+  margin-top: 0px;
+}
